@@ -32,6 +32,6 @@ jobs:
       env:
         TWINE_USERNAME: 17817640045
         TWINE_PASSWORD: 759153
-        TWINE_STEP: 60000
+        TWINE_STEP: 25000
       run: |
         python main.py ${TWINE_USERNAME} ${TWINE_PASSWORD} ${TWINE_STEP}
